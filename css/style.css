@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    font-family:'Poppins';
+    background-color: #6666660c;
+   
+    
+}
+#logoRaizen{
+    max-width: 10%;
+    margin-left: 10px;
+}
+    .container {
+    
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+.containerElements, .containerElements2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+.headerLogo{
+    display:flex;
+    
+    background-color: #66666620;
+    justify-content:space-between;
+    
+}
+.headerLogo h3{
+    display:flex;
+    font-size: 14px;
+    align-items: flex-end;
+    font-weight: 100;
+    color:#781e77;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.header h1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color:#8cdef7;
+    justify-content: left;
+    margin: 10px 10%;
+    
+}
+.box, .boxGrid,.boxGrid2, .boxList {
+    border: 1px solid #66666620;
+    margin: 0 10vw;
+    display: block;
+        
+} 
+
+.imgContents{
+    width: 40%;
+    padding: 5px;
+    border: 4px solid #66666620;
+    border-radius: 15px;
+    margin-bottom:0px;
+}
+.contents{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contents h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    
+}
+.update{
+    font-size: 10px;
+    margin: 0;
+    
+    
+}
+.fa-solid.fa-grip.is-depressed, .fa-solid.fa-list.is-depressed{
+    background-color: #6666663e;
+    color:#fff;
+}
+.links{
+    text-decoration: none;
+    transition: 0.15s;
+    
+    
+    
+}
+.titleElement{
+    color:#781e77;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    width: 80%;
+    word-spacing: 3px;
+    
+}
+
+
+.links:hover{
+    
+    text-decoration: underline;
+}
+
+#boxGrid{
+    display: flex;
+    
+    border-top:none;
+    border-bottom:none;
+
+}
+
+#headerFilters{
+    border:1px solid #66666620;
+    padding-right: 40px;
+    padding-left: 60px;
+    margin: 0;
+    background-color:#6666660c;
+}
+.filters{
+    text-align: left;
+    padding: 10px;
+}
+#inputDiv{
+    margin-top: 15px;
+    text-align: right;
+    
+}
+.filters button{
+    font-size: 15px;
+    border:1px solid #66666620;
+    padding: 3px;
+    color: #6666669f;
+    background-color: #66666620;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.filters label{
+    font-size: 14px;
+    font-weight: bold;
+}
+#view{
+    text-align: left;
+    margin-left: auto;
+}
+#btSearch{
+    background-color: #8cdef7;
+    border-style: none;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 25px;
+}
+#categoria{
+    height: 20px;
+}
+#inputSearch{
+    height: 25px;
+    width: 20vw;
+}
+
+.detalhes{
+    
+    text-decoration: none;
+    color: #6bbcd5;
+    font-size: 12px;
+    border: none;
+    background: none;
+    
+   
+}
+
+
+li{
+    list-style: none;
+    
+}
+
+
+table {
+    text-align: left;
+    background:transparent;
+    margin: 0;
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 0px;
+  }
+
+  
+  tr:nth-child(even) {
+    background:#edecec;
+    border-color:#edecec ;
+  }
+
+  .contentList{
+      display:table-row;
+  }
+
+
+
+
+  th{
+    
+    background:#ebebeb;
+    border-right: 2px solid rgb(242, 241, 241);
+    padding-bottom: 5px;
+  }
+  td{
+      font-size: 13px;
+  }
+
+  td .titleElement{
+      padding: 0;
+      margin: 0;
+  }
+
+  .contentDetails{
+    display: none;
+    font-size: 13px;
+    word-spacing: 2px;
+    height: 35%;
+    width: 80%;
+    margin-left: 10%;
+    
+    color: #781e77;
+ 
+  }
+  .contentDetails p{
+      margin-top: 5px;
+  }
+  .contentDetails.aberto{
+   display: block;
+}
+ 
+  

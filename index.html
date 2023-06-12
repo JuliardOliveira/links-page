@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/f943e74bcb.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>LinkPage</title>
+
+          
+    </head>
+<body onload="view('grid')" >
+    <div class="headerLogo">
+        
+            <img id="logoRaizen" src="img\RAIZEN_ASSINATURA_LOGO_RGB_POS.png">
+            <h3>PCM - Planejamento e Controle da Manutenção</h3>
+    </div>
+    <div class="header">
+        <h1> <sup><i class="fa-solid fa-link"></i></sup>
+            LinkPage
+        </h1>
+    </div>
+
+    <div class="box">
+        <div class="container" id="headerFilters">
+            <div class="filters">
+                <label>Categoria: </label><br>
+                <select id="categoria" onchange="filtrar(this.value)">
+                    <option value="Todos"> Todos </option>
+                    <option value="Custos"> Custos </option>
+                    <option value="Processos"> Processos </option>
+                    <option value="Segurança"> Segurança </option>
+                 </select>
+            </div>
+
+            <div class="filters" id="view">
+                <label> Visualização </label><br>
+                <button id="btList" onclick="view('list')" class="fa-solid fa-list"></button>
+                <button id="btGrid" onclick="view('grid')" class="fa-solid fa-grip"></button>
+            
+            </div>
+
+            <div class="filters" id="inputDiv">
+                <span><input type="search" id="inputSearch" placeholder="Procurar..."></span>
+                <span><button id="btSearch" onclick="search()"> Ok </button></span>
+            </div>
+        </div>
+
+    </div>    
+    
+    <div id="boxContent"> 
+       
+    
+    </div>
+    
+    
+ <script src="src/elementos.js"></script>           
+ <script src="src/main.js"></script>        
+</body>
+</html>
