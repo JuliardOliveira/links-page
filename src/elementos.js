@@ -53,7 +53,7 @@ let elementos = [
 //6    
     {
         id:5,
-        image: "kit_Incendio.PNG",
+        image: "Kit_Incendio.PNG",
         link: "https://app.powerbi.com/reportEmbed?reportId=e66593b3-67bb-4384-91d3-eaf08e83dea9&autoAuth=true&ctid=e7c411a6-9013-4967-a5b1-3d08f9edc13e",
         title:"Revisões Kit Incêndio",
         categoria:"Segurança",
