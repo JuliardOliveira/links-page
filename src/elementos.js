@@ -97,7 +97,7 @@ let elementos = [
     {
         id:9,
         image:   "Controle_Lubrificantes.PNG",
-        link: "https://app.powerbi.com/groups/me/reports/b22e0de9-ee0d-4f99-9d41-e431add86ec2/ReportSectionb390fc2aef6706295839?experience=power-bi",
+        link: "https://app.powerbi.com/groups/me/reports/e2c0ad2a-22fe-4e7d-8fb0-3b7571ef8b92/ReportSectionf067bc6abb85b84bf7a4?experience=power-bi",
         title:"Lubrificantes",
         categoria:"Processos",
         atualizacao:"Segunda-feira",
