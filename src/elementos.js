@@ -73,8 +73,8 @@ let elementos = [
 //8    
     {
         id:7,
-        image:  "em_desenvolvimento.png",
-        link: "",
+        image:  "componentes_orcados.jpeg",
+        link: "https://app.powerbi.com/reportEmbed?reportId=cf41b9cd-cc97-4409-b81f-3f470a582a52&autoAuth=true&ctid=e7c411a6-9013-4967-a5b1-3d08f9edc13e",
         title:"Componentes Orçados",
         categoria:"Processos",
         atualizacao:"Segunda-feira",
